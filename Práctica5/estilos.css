@@ -1,0 +1,10 @@
+ion-grid {
+    --ion-grid-columns: 12;
+}
+
+ion-col {
+    background-color: #5d1358;
+    border: solid 1px #fff;
+    color: #fff;
+    text-align: center;
+}
