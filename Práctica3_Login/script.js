@@ -1,13 +1,22 @@
-function login() {
-    var usuario = document.getElementById("usuario").value;
-    var contraseña = document.getElementById("contraseña").value;
-    console.log("Login correcto " + usuario);
-    alert("Login correcto " + usuario);
+var articulo = document.getElementById("tipoGasto");
+var precio = document.getElementById("monto");
+
+function guardar() {
+    articulo = tipoGasto.value;
+    
+    //parseInt convierte string a numero
+    precio = parseInt(monto.value);
+
+    total = total + monto;
+
+    // Crear elemento en html
+    let elementoTicket = document.createElement("p");
+    elementoTicket.innerHTML = articulo + "....... $" + monto;
+
+    // Insertar elemento en html
+    seccionTicket.appendChild(elementoTicket);
+
+
 }
 
-function registro() {
-    var usuario = document.getElementById("usuario").value;
-    console.log("Registro con éxito " + usuario);
-    alert("Registro con éxito " + usuario);
-}
 
