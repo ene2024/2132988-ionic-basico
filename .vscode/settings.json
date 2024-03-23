@@ -1,7 +1,0 @@
-{
-    "python.testing.pytestArgs": [
-        "Práctica3_Login"
-    ],
-    "python.testing.unittestEnabled": false,
-    "python.testing.pytestEnabled": true
-}
