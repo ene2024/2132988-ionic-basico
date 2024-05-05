@@ -1,0 +1,15 @@
+.ng-invalid.ng-dirty{
+    border-color: red;
+  }
+
+.ng-valid{
+    border-color: rgb(36, 223, 36);
+}
+
+.ng-dirty{
+    border-color: rgb(54, 150, 253);
+}
+
+.ng-touched{
+    border-color: rgb(54, 150, 253);
+}

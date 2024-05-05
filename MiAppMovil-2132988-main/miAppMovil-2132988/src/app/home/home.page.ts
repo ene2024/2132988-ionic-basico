@@ -15,6 +15,6 @@ import { ProductosComponent } from '../productos/productos.component';
 export class HomePage {
   constructor() { }
 
-  titulo: string = 'Mi nueva página!';
+  titulo: string = 'Lista de Alumnos';
 
 }

@@ -8,7 +8,7 @@ import {HttpClientModule} from '@angular/common/http';
   selector: 'app-root',
   templateUrl: 'app.component.html',
   standalone: true,
-  imports: [IonApp, IonRouterOutlet, CommonModule, HttpClientModule],
+  imports: [IonApp, IonRouterOutlet, CommonModule],
 })
 export class AppComponent {
   constructor() {}
