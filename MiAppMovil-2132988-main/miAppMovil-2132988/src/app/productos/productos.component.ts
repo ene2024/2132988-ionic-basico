@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ConsultaService } from '../consulta.service';
+import { IonicModule } from '@ionic/angular';
 
 @Component({
   selector: 'app-productos',
