@@ -2,9 +2,13 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding-top: 20%;
+    padding-top: 5%;
 }
 
 ion-button {
     width: 50%;
+}
+
+ion-grid {
+    padding-top: 5%;
 }
